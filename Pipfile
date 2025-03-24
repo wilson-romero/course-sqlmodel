@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 sqlmodel = "*"
+fastapi = {extras = ["standard"], version = "*"}
+requests = "*"
+pytest = "*"
 
 [dev-packages]
 
